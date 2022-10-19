@@ -4,6 +4,7 @@
     <TargetFramework>net6.0</TargetFramework>
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
+    <UserSecretsId>Dog-Api-48d2a1df-2934-48a3-bd4d-7250aed078d2</UserSecretsId>
   </PropertyGroup>
 
   <ItemGroup>
