@@ -1,5 +1,12 @@
 version: '3'
 services:
+  envoygateway:
+    image: envoyproxy/envoy:v1.23.2
+    ports:
+      - "9901:9901"
+      - "10000:10000"
+    volumes:
+      - ./Envoy/envoy.yaml:/etc/envoy/envoy.yaml
   catapi:
     build: CatApi/
     ports:
